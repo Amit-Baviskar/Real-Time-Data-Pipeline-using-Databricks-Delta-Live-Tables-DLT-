@@ -6,12 +6,13 @@
 2. 🏗️ [Architecture](#architecture)  
 3. ✨ [Features](#features)  
 4. 💻 [Tech Stack](#tech-stack)  
-5. 📂  [File Structure](#file-structure)  
-6. 🔄 [Project Flow](#project-flow)  
-7. 🚀 [Getting Started](#getting-started)  
+5. 📂  [File Structure](#file-structure)
+       -[Source File setup](#Source-File-setup) 
+7. 🔄 [Project Flow](#project-flow)  
+8. 🚀 [Getting Started](#getting-started)  
      -  ⚙️ [Prerequisites](#prerequisites)  
-8. 📌 [Key Takeaways](#key-takeaways)  
-9. 🔮 [Future Enhancements](#future-enhancements)  
+9. 📌 [Key Takeaways](#key-takeaways)  
+10. 🔮 [Future Enhancements](#future-enhancements)  
 
 
 
@@ -90,6 +91,24 @@ The pipeline follows a Medallion Architecture:
       ├─ /configs               # ⚙️ Configuration files for DLT pipelines
       ├─ /utils                 # 🛠️ Helper functions & utilities
       └─ README.md              # 📖 Project documentation
+
+----
+
+## 📂 Source File setup
+      ecommerce_data/
+    ├── customers/
+    │    ├── customers_sample.parquet
+    │    └── customers_large.parquet
+    ├── products/
+    │    ├── products_sample.parquet
+    │    └── products_large.parquet
+    ├── orders_returns/
+    │    ├── orders_returns_sample.parquet
+    │    └── orders_returns_large.parquet
+    └── regions/
+         ├── regions_sample.parquet
+         └── regions_large.parquet
+
 
 ----
 
