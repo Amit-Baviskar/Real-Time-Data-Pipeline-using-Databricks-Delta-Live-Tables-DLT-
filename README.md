@@ -95,19 +95,38 @@ The pipeline follows a Medallion Architecture:
 ----
 
 ## 📂 Source File setup
-      ecommerce_data/
-    ├── customers/
-    │    ├── customers_sample.parquet
-    │    └── customers_large.parquet
-    ├── products/
-    │    ├── products_sample.parquet
-    │    └── products_large.parquet
-    ├── orders_returns/
-    │    ├── orders_returns_sample.parquet
-    │    └── orders_returns_large.parquet
-    └── regions/
-         ├── regions_sample.parquet
-         └── regions_large.parquet
+  1.
+
+          ecommerce_data/
+          ├── customers/
+          │    ├── customers_sample.parquet
+          │    └── customers_large.parquet
+          ├── products/
+          │    ├── products_sample.parquet
+          │    └── products_large.parquet
+          ├── orders_returns/
+          │    ├── orders_returns_sample.parquet
+          │    └── orders_returns_large.parquet
+          └── regions/
+               ├── regions_sample.parquet
+               └── regions_large.parquet
+
+ 2. Schema — exactly as in my previous message (✅ same fields, realistic relationships among CustomerID, ProductID, RegionID, etc.)
+
+ 3. File type
+
+   * Each dataset will be a single Parquet file (non-partitioned).
+
+   * You can later upload them to S3 and register with Glue/Athena or Databricks.
+4 . Volume
+
+   * customers_large: 100,000 rows
+
+   * products_large: 10,000 rows
+
+   * orders_returns_large: 1,000,000+ rows
+
+   * regions_large: 10,000 rows
 
 
 ----
