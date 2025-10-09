@@ -82,14 +82,14 @@ The pipeline follows a Medallion Architecture:
       ----
      
 ## 📂 File Structure
-   /Ecommerce-DLT-Pipeline
-│
-├─ /bronze                # 🥉 Raw data ingestion notebooks
-├─ /silver                # 🥈 Data cleaning & transformation notebooks
-├─ /gold                  # 🥇 Analytics-ready transformation notebooks
-├─ /configs               # ⚙️ Configuration files for DLT pipelines
-├─ /utils                 # 🛠️ Helper functions & utilities
-└─ README.md              # 📖 Project documentation
+      /Ecommerce-DLT-Pipeline
+      │
+      ├─ /bronze                # 🥉 Raw data ingestion notebooks
+      ├─ /silver                # 🥈 Data cleaning & transformation notebooks
+      ├─ /gold                  # 🥇 Analytics-ready transformation notebooks
+      ├─ /configs               # ⚙️ Configuration files for DLT pipelines
+      ├─ /utils                 # 🛠️ Helper functions & utilities
+      └─ README.md              # 📖 Project documentation
 
 ----
 
