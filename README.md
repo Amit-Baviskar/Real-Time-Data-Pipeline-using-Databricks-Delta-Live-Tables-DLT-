@@ -3,10 +3,11 @@
 ----
    ## 📚 Index  
 1. 🌟 [Overview](#overview)  
-2. 🏗️ [Architecture](#architecture)  
-3. ✨ [Features](#features)  
-4. 💻 [Tech Stack](#tech-stack)  
-5. 📂  [File Structure](#file-structure)
+2. 🏗️ [Architecture](#architecture)
+3. ⚙️ [Data - Flow Chart](#Data-Flow-Chart)
+4. ✨ [Features](#features)  
+5. 💻 [Tech Stack](#tech-stack)  
+6. 📂  [File Structure](#file-structure)
        -[Source File setup](#Source-File-setup) 
 7. 🔄 [Project Flow](#project-flow)  
 8. 🚀 [Getting Started](#getting-started)  
@@ -56,6 +57,10 @@ The pipeline follows a Medallion Architecture:
 
    *  Powered by Delta Live Tables to automate transformations and maintain data quality.
 
+----
+## ✨ Data - Flow Chart
+
+<img width="1897" height="891" alt="Image" src="https://github.com/user-attachments/assets/f9b533e5-940b-4720-a97a-15423a3c84e0" />
      
 ----
 ## ✨ Features 
