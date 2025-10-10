@@ -30,7 +30,7 @@ The pipeline automates monitoring and alerting, reduces manual maintenance, and 
 
 The pipeline follows a Medallion Architecture:
 
- -  1. 🥉 Bronze Layer (Raw Data)
+ -  1 . 🥉 Bronze Layer (Raw Data)
 
       * Stores raw ingested data without transformations.
 
@@ -60,7 +60,7 @@ The pipeline follows a Medallion Architecture:
 ----
 ## ✨ Data - Flow Chart
 
-<img width="1897" height="891" alt="Image" src="https://github.com/user-attachments/assets/f9b533e5-940b-4720-a97a-15423a3c84e0" />
+<img width="1615" height="544" alt="Image" src="https://github.com/user-attachments/assets/5e3cb70b-5a42-44b9-aa2c-a7d2c9bcf8d4" />
      
 ----
 ## ✨ Features 
