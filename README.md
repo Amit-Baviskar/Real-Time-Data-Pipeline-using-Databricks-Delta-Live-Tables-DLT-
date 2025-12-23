@@ -1,49 +1,81 @@
 # 🛒 E-commerce Real-Time Data Pipeline with Databricks Delta Live Tables (DLT)
 
 ----
-   ## 📚 Index  
+   ##  Index  
 1.  [Introduction](#introduction)   
-2. 🏗️ [Architecture](#architecture)
-3. ⚙️ [Project Objectives](#project-objectives)
-4. ✨ [Project Overview & Methodology](#project-Overview-&-Methodology)  
-5. 💻 [Tech Stack](#tech-stack)  
-6. 📂  [File Structure](#file-structure)
+2.  [Architecture](#architecture)
+3.  [Project Objectives](#project-objectives)
+4.  [Project Overview & Methodology](#project-Overview-&-Methodology)  
+5.  [Tech Stack](#tech-stack)  
+6.   [File Structure](#file-structure)
        -[Source File setup](#Source-File-setup) 
-7. 🔄 [Project Flow](#project-flow)  
-8. 🚀 [Getting Started](#getting-started)  
-     -  ⚙️ [Prerequisites](#prerequisites)  
-9. 📌 [Key Takeaways](#key-takeaways)  
-10. 🔮 [Future Enhancements](#future-enhancements)  
+7.  [Project Flow](#project-flow)  
+8.  [Getting Started](#getting-started)  
+     -   [Prerequisites](#prerequisites)  
+9.  [Key Takeaways](#key-takeaways)  
+10. [Future Enhancements](#future-enhancements)  
 
 
 
 ----
-## *🌟* Introduction
+##  Introduction
 
+This project demonstrates the design and implementation of a real-time ETL pipeline for an e-commerce platform using Databricks Delta Live Tables (DLT). The pipeline processes incremental data from Azure Data Lake Storage (ADLS), applying a Medallion Architecture (Bronze–Silver–Gold) to standardize, clean, and transform data into analytics-ready datasets.
 Generation Z (individuals born between 1997 and 2012) is rapidly emerging as the future workforce, bringing distinct values, expectations, and career priorities. This project explores Gen Z’s career aspirations, motivations, and workplace preferences to help educators, employers, organizations, and policymakers align their strategies with this evolving generation.
 
+The pipeline automates monitoring and alerting, reduces manual maintenance, and accelerates data availability by ~70%, enabling business teams to make timely, data-driven decisions.
 The report summarizes the project objectives, methodology, key findings, outcomes, challenges, lessons learned, and recommendations, offering data-driven insights into how Gen Z views work, purpose, and career growth.
 
 
 ----
-## 🏗️ Architecture
 
+##  2. Architecture
+
+The pipeline follows a Medallion Architecture:
+
+ -  1 . 🥉 Bronze Layer (Raw Data)
+
+      * Stores raw ingested data without transformations.
+
+      * Data Sources: customer, region, orders, product.
+
+ -  2.🥈 Silver Layer (Cleaned & Standardized Data)
+
+       * Stores raw ingested data without transformations.
+
+       * Data Sources: customer, region, orders, product.
+
+      * Applies data cleaning, deduplication, and standardization of IDs.
+
+      * Fixes missing or inconsistent dates.
+
+      * Implements business rules such as fraud detection (e.g., duplicate returns by the same customer).
+
+   ### **Silver Tables: silver_order, silver_region, silver_customer, silver_product.**
+
+-    3.🥇 Gold Layer (Analytics-Ready Data)
+
+
+   * Consolidates transformed data for business intelligence and analytics.
+
+   *  Powered by Delta Live Tables to automate transformations and maintain data quality.
 
 
 ----
-## ✨ Project Objectives
+##  Project Objectives
 
 The primary objectives of this project were to:
 
-   *   ⚡ Understand Gen Z’s career aspirations, goals, and motivations
+   *   ⚡ Real-time data ingestion using Auto Loader
 
-   *    🔄 Identify key factors influencing career decisions, including economic conditions, technology, and personal interests
+   *    🔄 Incremental processing with PySpark Structured Streaming
   
-   *    ✅ Analyze preferred industries, work environments, and career growth expectations
+   *    ✅ Data quality enforcement using DLT Expectations Framework
 
-   *    🗂️ Identify critical skills and qualifications Gen Z considers essential for future success
-
-   *    🔔 Provide actionable recommendations for businesses and educational institutions
+   *    🗂️ End-to-end data governance via Unity Catalog
+     
+   *    🔔 Event-driven, fully managed workflow for automated monitoring and alerting
+     
 ----
 ## Project Overview & Methodology
 
@@ -58,7 +90,7 @@ The primary objectives of this project were to:
    *   🏗️ Delta Lake for Medallion Architecture
       ----
      
-## 📂 File Structure
+##  File Structure 📂
       /Ecommerce-DLT-Pipeline
       │
       ├─ /bronze                # 🥉 Raw data ingestion notebooks
@@ -70,7 +102,7 @@ The primary objectives of this project were to:
 
 ----
 
-## 📂 Source File setup
+## 📂 Source File setup 📂
   1.
 
           ecommerce_data/
