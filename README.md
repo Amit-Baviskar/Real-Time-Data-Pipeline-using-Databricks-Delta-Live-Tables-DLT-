@@ -21,10 +21,9 @@
 ##  Introduction
 
 This project demonstrates the design and implementation of a real-time ETL pipeline for an e-commerce platform using Databricks Delta Live Tables (DLT). The pipeline processes incremental data from Azure Data Lake Storage (ADLS), applying a Medallion Architecture (Bronze–Silver–Gold) to standardize, clean, and transform data into analytics-ready datasets.
-Generation Z (individuals born between 1997 and 2012) is rapidly emerging as the future workforce, bringing distinct values, expectations, and career priorities. This project explores Gen Z’s career aspirations, motivations, and workplace preferences to help educators, employers, organizations, and policymakers align their strategies with this evolving generation.
 
 The pipeline automates monitoring and alerting, reduces manual maintenance, and accelerates data availability by ~70%, enabling business teams to make timely, data-driven decisions.
-The report summarizes the project objectives, methodology, key findings, outcomes, challenges, lessons learned, and recommendations, offering data-driven insights into how Gen Z views work, purpose, and career growth.
+
 
 
 ----
