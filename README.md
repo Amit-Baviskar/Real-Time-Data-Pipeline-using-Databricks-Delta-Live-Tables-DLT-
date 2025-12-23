@@ -29,7 +29,7 @@ The report summarizes the project objectives, methodology, key findings, outcome
 
 ----
 
-##  2. Architecture
+##  Architecture
 
 The pipeline follows a Medallion Architecture:
 
@@ -102,7 +102,7 @@ The primary objectives of this project were to:
 
 ----
 
-## 📂 Source File setup 📂
+##  Source File setup 📂
   1.
 
           ecommerce_data/
