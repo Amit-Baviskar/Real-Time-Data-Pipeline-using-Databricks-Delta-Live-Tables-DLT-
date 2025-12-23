@@ -3,9 +3,9 @@
 ----
    ## 📚 Index  
 1. 🌟 [Introduction](#introduction)   
-2. 🏗️ [2. Architecture](#Architecture)
-3. ⚙️ [3. Project Objectives](#Project-Objectives)
-4. ✨ [4. Project Overview & Methodology](#Project-Overview-&-Methodology)  
+2. 🏗️ [Architecture](#architecture)
+3. ⚙️ [Project Objectives](#project-objectives)
+4. ✨ [Project Overview & Methodology](#project-Overview-&-Methodology)  
 5. 💻 [Tech Stack](#tech-stack)  
 6. 📂  [File Structure](#file-structure)
        -[Source File setup](#Source-File-setup) 
