@@ -2,7 +2,7 @@
 
 ----
    ## 📚 Index  
-1. 🌟 [1.Introduction](#1.Introduction)  
+1. 🌟 🌟 [Introduction](#Introduction)   
 2. 🏗️ [2. Architecture](#Architecture)
 3. ⚙️ [3. Project Objectives](#Project-Objectives)
 4. ✨ [4. Project Overview & Methodology](#Project-Overview-&-Methodology)  
