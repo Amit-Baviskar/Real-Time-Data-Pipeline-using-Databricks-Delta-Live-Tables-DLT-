@@ -2,10 +2,10 @@
 
 ----
    ## 📚 Index  
-1. 🌟 [Overview](#overview)  
-2. 🏗️ [Architecture](#architecture)
-3. ⚙️ [Data - Flow Chart](#Data-Flow-Chart)
-4. ✨ [Features](#features)  
+1. 🌟 [1. Introduction](#Introduction)  
+2. 🏗️ [2. Architecture](#Architecture)
+3. ⚙️ [3. Project Objectives](#Project-Objectives)
+4. ✨ [4. Project Overview & Methodology](#Project-Overview-&-Methodology)  
 5. 💻 [Tech Stack](#tech-stack)  
 6. 📂  [File Structure](#file-structure)
        -[Source File setup](#Source-File-setup) 
@@ -18,63 +18,34 @@
 
 
 ----
-## 🌟 Overview
+## 🌟 1. Introduction
 
-This project demonstrates the design and implementation of a real-time ETL pipeline for an e-commerce platform using Databricks Delta Live Tables (DLT). The pipeline processes incremental data from Azure Data Lake Storage (ADLS), applying a Medallion Architecture (Bronze–Silver–Gold) to standardize, clean, and transform data into analytics-ready datasets.
+Generation Z (individuals born between 1997 and 2012) is rapidly emerging as the future workforce, bringing distinct values, expectations, and career priorities. This project explores Gen Z’s career aspirations, motivations, and workplace preferences to help educators, employers, organizations, and policymakers align their strategies with this evolving generation.
 
-The pipeline automates monitoring and alerting, reduces manual maintenance, and accelerates data availability by ~70%, enabling business teams to make timely, data-driven decisions.
+The report summarizes the project objectives, methodology, key findings, outcomes, challenges, lessons learned, and recommendations, offering data-driven insights into how Gen Z views work, purpose, and career growth.
 
 
 ----
-## 🏗️ Architecture
-
-The pipeline follows a Medallion Architecture:
-
- -  1 . 🥉 Bronze Layer (Raw Data)
-
-      * Stores raw ingested data without transformations.
-
-      * Data Sources: customer, region, orders, product.
-
- -  2.🥈 Silver Layer (Cleaned & Standardized Data)
-
-       * Stores raw ingested data without transformations.
-
-       * Data Sources: customer, region, orders, product.
-
-      * Applies data cleaning, deduplication, and standardization of IDs.
-
-      * Fixes missing or inconsistent dates.
-
-      * Implements business rules such as fraud detection (e.g., duplicate returns by the same customer).
-
-   ### **Silver Tables: silver_order, silver_region, silver_customer, silver_product.**
-
--    3.🥇 Gold Layer (Analytics-Ready Data)
+## 🏗️ 2. Architecture
 
 
-   * Consolidates transformed data for business intelligence and analytics.
-
-   *  Powered by Delta Live Tables to automate transformations and maintain data quality.
 
 ----
-## ✨ Data - Flow Chart
+## ✨  3. Project Objectives
 
-<img width="1615" height="544" alt="Image" src="https://github.com/user-attachments/assets/5e3cb70b-5a42-44b9-aa2c-a7d2c9bcf8d4" />
-     
-----
-## ✨ Features 
-   *   ⚡ Real-time data ingestion using Auto Loader
+The primary objectives of this project were to:
 
-   *    🔄 Incremental processing with PySpark Structured Streaming
+   *   ⚡ Understand Gen Z’s career aspirations, goals, and motivations
+
+   *    🔄 Identify key factors influencing career decisions, including economic conditions, technology, and personal interests
   
-   *    ✅ Data quality enforcement using DLT Expectations Framework
+   *    ✅ Analyze preferred industries, work environments, and career growth expectations
 
-   *    🗂️ End-to-end data governance via Unity Catalog
+   *    🗂️ Identify critical skills and qualifications Gen Z considers essential for future success
 
-   *    🔔 Event-driven, fully managed workflow for automated monitoring and alerting
+   *    🔔 Provide actionable recommendations for businesses and educational institutions
 ----
-## 💻 Tech Stack
+## 4. Project Overview & Methodology
 
    *   ☁️ Databricks (PySpark, Delta Live Tables, Unity Catalog)
 
