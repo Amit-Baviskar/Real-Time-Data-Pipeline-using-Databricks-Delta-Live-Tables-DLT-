@@ -5,10 +5,9 @@
 1.  [Introduction](#introduction)   
 2.  [Architecture](#architecture)
 3.  [Project Objectives](#project-objectives)
-4.  [Project Overview & Methodology](#project-overview-&-methodology)  
-5.  [Tech Stack](#tech-stack)  
-6.   [File Structure](#file-structure)
-       -[Source File setup](#source-file-setup) 
+4.  [Project Overview & Methodology](#project-overview-&-methodology)    
+5.  [File Structure](#file-structure)
+       - [Source File setup](#source-file-setup) 
 7.  [Project Flow](#project-flow)  
 8.  [Getting Started](#getting-started)  
      -   [Prerequisites](#prerequisites)  
@@ -29,6 +28,10 @@ The pipeline automates monitoring and alerting, reduces manual maintenance, and 
 ----
 
 ##  Architecture
+
+
+<img width="1615" height="544" alt="Image" src="https://github.com/user-attachments/assets/5e3cb70b-5a42-44b9-aa2c-a7d2c9bcf8d4" />
+
 
 The pipeline follows a Medallion Architecture:
 
@@ -76,7 +79,7 @@ The primary objectives of this project were to:
    *    🔔 Event-driven, fully managed workflow for automated monitoring and alerting
      
 ----
-## Project Overview & Methodology
+##  Project Overview & Methodology
 
    *   ☁️ Databricks (PySpark, Delta Live Tables, Unity Catalog)
 
@@ -89,7 +92,7 @@ The primary objectives of this project were to:
    *   🏗️ Delta Lake for Medallion Architecture
       ----
      
-##  File Structure 📂
+##  File Structure 
       /Ecommerce-DLT-Pipeline
       │
       ├─ /bronze                # 🥉 Raw data ingestion notebooks
@@ -101,7 +104,7 @@ The primary objectives of this project were to:
 
 ----
 
-##  Source File setup 📂
+##  Source File setup 
   1.
 
           ecommerce_data/
@@ -155,7 +158,7 @@ The primary objectives of this project were to:
 
 
 ## Getting Started
-   Prerequisites
+   ## Prerequisites
 
    Databricks workspace with Delta Live Tables enabled
 
