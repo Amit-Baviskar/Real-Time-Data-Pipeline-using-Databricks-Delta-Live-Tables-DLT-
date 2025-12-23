@@ -2,7 +2,7 @@
 
 ----
    ## 📚 Index  
-1. 🌟 [1. Introduction](#Introduction)  
+1. 🌟 [1. Introduction](#1.Introduction)  
 2. 🏗️ [2. Architecture](#Architecture)
 3. ⚙️ [3. Project Objectives](#Project-Objectives)
 4. ✨ [4. Project Overview & Methodology](#Project-Overview-&-Methodology)  
@@ -18,7 +18,7 @@
 
 
 ----
-## 🌟 1. Introduction
+## 🌟 1.Introduction
 
 Generation Z (individuals born between 1997 and 2012) is rapidly emerging as the future workforce, bringing distinct values, expectations, and career priorities. This project explores Gen Z’s career aspirations, motivations, and workplace preferences to help educators, employers, organizations, and policymakers align their strategies with this evolving generation.
 
