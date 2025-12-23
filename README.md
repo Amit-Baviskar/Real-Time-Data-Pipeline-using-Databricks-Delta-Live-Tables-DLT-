@@ -140,7 +140,7 @@ The primary objectives of this project were to:
 ----
 
 
-## 🔄 Project Flow
+##  Project Flow
 
    1 . Raw data ingested from ADLS into Bronze tables 🥉
 
@@ -156,7 +156,7 @@ The primary objectives of this project were to:
 
 
 ## Getting Started
-  ⚙️ Prerequisites
+   Prerequisites
 
    Databricks workspace with Delta Live Tables enabled
 
@@ -166,7 +166,7 @@ The primary objectives of this project were to:
 
 ----
 
-## 📌 Key Takeaways
+##  Key Takeaways
 
    * Built a real-time, incremental ETL pipeline ⚡ using Databricks DLT
 
@@ -178,7 +178,7 @@ The primary objectives of this project were to:
 
 ----
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
   * 🤖 Integrate ML-based anomaly detection for fraud prevention
 
