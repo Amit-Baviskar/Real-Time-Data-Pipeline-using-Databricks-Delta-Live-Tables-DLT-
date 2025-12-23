@@ -33,6 +33,9 @@ The pipeline automates monitoring and alerting, reduces manual maintenance, and 
 <img width="1615" height="544" alt="Image" src="https://github.com/user-attachments/assets/5e3cb70b-5a42-44b9-aa2c-a7d2c9bcf8d4" />
 
 
+
+
+
 The pipeline follows a Medallion Architecture:
 
  -  1 . 🥉 Bronze Layer (Raw Data)
