@@ -26,12 +26,12 @@ The report summarizes the project objectives, methodology, key findings, outcome
 
 
 ----
-## 🏗️ 2. Architecture
+## 🏗️ Architecture
 
 
 
 ----
-## ✨  3. Project Objectives
+## ✨ Project Objectives
 
 The primary objectives of this project were to:
 
@@ -45,7 +45,7 @@ The primary objectives of this project were to:
 
    *    🔔 Provide actionable recommendations for businesses and educational institutions
 ----
-## 4. Project Overview & Methodology
+## Project Overview & Methodology
 
    *   ☁️ Databricks (PySpark, Delta Live Tables, Unity Catalog)
 
